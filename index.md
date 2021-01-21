@@ -5,6 +5,18 @@
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
+docs_list_title: ACME Documentation
+docs:
+
+- title: Introduction
+  url: introduction.html
+
+- title: Configuration
+  url: configuration.html
+
+- title: Deployment
+  url: deployment.html
+  
 ```markdown
 Syntax highlighted code block
 
