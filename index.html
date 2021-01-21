@@ -41,13 +41,10 @@
     <div class="row">
       <nav class="nav" role="navigation">
         <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+          <li class="nav__item"><a href="#work" class="nav__link">Professional Projects</a></li>
+          <li class="nav__item"><a href="#play" class="nav__link">Personal Projects</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -115,10 +112,7 @@
               </ul>
 
               <div class="work__links">
-                <a href="https://github.com/rballachay/RNNSysID" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
+                <a href="https://github.com/rballachay/RNNSysID">
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
@@ -131,6 +125,67 @@
       </div>
     </section>
 
+    <!-- ***** Personal Projects ***** -->
+
+    <section class="play" id="play">
+      <div class="row">
+        <h2>Personal Projects</h2>
+        <div class="play__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="play__box">
+            <div class="play__text">
+              <h3>Book Visualization Dashboard</h3>
+              <p>
+                Combine Google Sheet API and Goodreads API to collect book info.
+              </p>
+              <ul class="play__list">
+                <li>Python</li>
+                <li>Jupyer Notebooks</li>
+                <li>Matplotlib</li>
+                <li>Pandas</li>
+              </ul>
+
+              <div class="play__links">
+                <a href="https://github.com/rballachay/BookLearning" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="play__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="play__image-box">
+              <img src="./images/project-3.png" class="play__image" alt="Project 3" />
+            </div>
+          </div>
+
+          <div class="play__box">
+            <div class="play__text">
+              <h3>Vancouver Bus Map</h3>
+              <p>
+                Pull data from Vancouver Translink API and plot on map of Vancouver 
+                to determine best place to take the bus from.
+              </p>
+              <ul class="play__list">
+                <li>Python</li>
+                <li>Matplotlib</li>
+                <li>Jupyter Notebooks</li>
+                <li>Numpy</li>
+              </ul>
+
+              <div class="play__links">
+                <a href="https://github.com/rballachay/TransLink">
+                  <img src="./images/github.svg" class="play__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="play__image-box">
+              <img src="./images/project-4.png" class="play__image" alt="Project 1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <!-- ***** About ***** -->
 
     <section class="about" id="about">
